@@ -1,6 +1,6 @@
 FROM node:22-slim
 
-WORKDIR /app
+WORKDIR /test
 
 COPY package*.json ./
 RUN npm install
